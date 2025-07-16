@@ -1,0 +1,8 @@
+ - name: Anil kumar
+   hosts: local
+   connection: local
+   tasks:
+   - name: Anil kumar is very good person
+     ansible.builtin.debug:
+     msg: "good afternoon gays"
+
