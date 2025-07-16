@@ -4,5 +4,5 @@
    tasks:
    - name: Anil kumar is very good person
      ansible.builtin.debug:
-     msg: "good afternoon gays"
+      msg: "good afternoon gays"
 
