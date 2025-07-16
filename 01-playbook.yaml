@@ -1,9 +1,9 @@
  - name: Hello Dinesh
    hosts: frontend
    tasks:
-   - name: print Hello Dinesh
+   - name: Hello Dinesh
      ansible.builtin.debug:
-      message: "Hello Everyone"
+     
 
 
 
