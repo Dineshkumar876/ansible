@@ -2,7 +2,7 @@
   host: frontend
   connection: frontend
   task:
-   -name: print Dinesh is very good person
+   -name: print Hello Dinesh
     ansible.builtin.debug:
      message: "Hello Everyone"
 
