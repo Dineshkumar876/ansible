@@ -12,8 +12,3 @@
       name: nginx
       state: started
       enable: yes
-
-
-      
-    
-  
