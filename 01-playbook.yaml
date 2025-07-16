@@ -1,0 +1,11 @@
+ -name: Hello Dinesh
+  host: frontend
+  connection: frontend
+  task:
+   -name: print Dinesh is very good person
+    ansible.builtin.debug:
+     message: "Hello Everyone"
+
+
+
+     
