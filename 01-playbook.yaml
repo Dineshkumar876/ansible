@@ -1,6 +1,5 @@
  - name: Hello Dinesh
    hosts: frontend
-   connection: frontend
    tasks:
    - name: print Hello Dinesh
      ansible.builtin.debug:
