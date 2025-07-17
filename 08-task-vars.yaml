@@ -6,13 +6,13 @@
      Experience: 10 years
      place: Guntur
    tasks:
-   - name: Hello ACP
+   - name: Hello principal sir
      vars:
        position: principal
        Experience: 10 years
      ansible.builtin.debug:
       msg: "Hello {{position}}, your age is {{age}}, are you {{place}}"
 
-   - name: Hello ACP infromation again
+   - name: Hello principal sir infromation again
      ansible.builtin.debug:
       msg: "Hello {{position}}, your age is {{age}}, are you {{place}}"
