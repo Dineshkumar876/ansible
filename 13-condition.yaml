@@ -1,6 +1,6 @@
 - name: install control facts
-  hosts: local
-  connection: local
+  hosts: frontend
+  become: yes
   tasks:
   - name: install if nginx in redhat
     ansible.builtin.dnf:
