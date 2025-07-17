@@ -4,6 +4,6 @@
   vars_files:
   - Area.yaml 
   tasks:
-  - name: print position information
+  - name: print principal position infromation
     ansible.builtin.debug:
       msg: "Hello {{position}}, your start with carrer {{Experience}}, your from {{place}}"
