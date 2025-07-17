@@ -9,3 +9,7 @@
    - name: Hello ACP
      ansible.builtin.debug:
       msg: "Hello {{position}}, your age is {{age}}, are you {{place}}"
+
+   - name: Hello ACP infromation again
+     ansible.builtin.debug:
+      msg: "Hello {{position}}, your age is {{age}}, are you {{place}}"
