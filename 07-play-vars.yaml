@@ -6,10 +6,10 @@
      Experience: 10 years
      place: Guntur 
    tasks:
-   - name: Hello ACP
+   - name: Hello principal sir
      ansible.builtin.debug:
-      msg: "Hello {{position}}, your age is {{age}}, are you {{place}}"
+      msg: "Hello {{position}}, your start with carrer {{Experience}}, your from {{place}}"
 
-   - name: Hello ACP infromation again
+   - name: Hello principal sir again infromation
      ansible.builtin.debug:
-      msg: "Hello {{position}}, your age is {{age}}, are you {{place}}"
+      msg: "Hello {{position}},your start with carrer {{Experience}}, your from {{place}}"
