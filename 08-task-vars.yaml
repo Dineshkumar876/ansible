@@ -1,0 +1,18 @@
+ - name: dinesh Kumar
+   hosts: local
+   connection: local
+   vars:
+     position: principal
+     Experience: 10 years
+     place: Guntur
+   tasks:
+   - name: Hello ACP
+     vars:
+       position: principal
+       Experience: 10 years
+     ansible.builtin.debug:
+      msg: "Hello {{position}}, your age is {{age}}, are you {{place}}"
+
+   - name: Hello ACP infromation again
+     ansible.builtin.debug:
+      msg: "Hello {{position}}, your age is {{age}}, are you {{place}}"
