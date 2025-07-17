@@ -2,7 +2,7 @@
    hosts: local
    connection: local
    vars:
-   - place.yaml 
+   - Area.yaml 
    tasks:
    - name: Hello principal sir
      ansible.builtin.debug:
