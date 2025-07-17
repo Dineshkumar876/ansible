@@ -1,13 +1,5 @@
- ok: [localhost] => {
-    "msg": {
-        "all_ipv4_addresses": [
-            "172.31.18.10"
-        ],
-        "all_ipv6_addresses": [
-            "fe80::8ff:d8ff:fe7d:2eeb"
-        ],
-        "ansible_local": {},
-        "apparmor": {
+ 
+     {
             "status": "disabled"
         },
         "architecture": "x86_64",
