@@ -1,0 +1,9 @@
+ - name: variable from files
+   hosts: local
+   connection: local
+   vars:
+   - position.yaml 
+   tasks:
+   - name: Hello principal sir
+     ansible.builtin.debug:
+      msg: "Hello {{position}}, your start with carrer {{Experience}}, your from {{place}}"
