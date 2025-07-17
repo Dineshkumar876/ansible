@@ -1,8 +1,9 @@
 - name: install control facts
   hosts: frontend
+  become: yes
   task:
   - name: install if nginx in redhat
     ansible.builtin.dnf:
-    name: nginx
-    state: present
+      name: nginx
+      state: present
     when: ansible_os_family == "RedHat"
