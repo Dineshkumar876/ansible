@@ -1,8 +1,8 @@
 - name: variable from files
   hosts: local
   connection: local
-  vars:
-   - Area.yaml 
+  vars_files:
+  - Area.yaml 
   tasks:
   - name: print Hello principal sir
     ansible.builtin.debug:
