@@ -2,9 +2,9 @@
    hosts: local
    connection: local
    vars:
-     position: ACP
-     age: 28
-     place: Guntur
+     position: principal
+     Experience: 10 years
+     place: Guntur 
    tasks:
    - name: Hello ACP
      ansible.builtin.debug:
