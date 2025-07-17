@@ -11,8 +11,8 @@
        position: principal
        Experience: 10 years
      ansible.builtin.debug:
-      msg: "Hello {{position}}, your age is {{age}}, are you {{place}}"
+      msg: "Hello {{position}}, your start with carrer {{Experience}}, your from {{place}}"
 
    - name: Hello principal sir infromation again
      ansible.builtin.debug:
-      msg: "Hello {{position}}, your age is {{age}}, are you {{place}}"
+      msg: "Hello {{position}}, your start with carrer {{Experience}}, your from {{place}}"
