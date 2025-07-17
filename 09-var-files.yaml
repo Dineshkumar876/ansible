@@ -4,6 +4,6 @@
   vars_files:
   - Area.yaml 
   tasks:
-  - name: print course information
+  - name: print course information\n
     ansible.builtin.debug:
       msg: "Hello {{position}}, your start with carrer {{Experience}}, your from {{place}}"
