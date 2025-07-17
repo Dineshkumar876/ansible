@@ -1,10 +1,10 @@
- - name: condition demo
-   hosts: local
-   connection: local
-   vars:
-     Number=68
-   tasks:
-   - name: Number less than or equal to 100
-     ansible.builtin.debug:
-       msg: "Given number {{ Number }} is less than to 100"
-     when: Number > 100 
+- name: condition demo
+  hosts: local
+  connection: local
+  vars:
+    Number=68
+  tasks:
+  - name: Number less than or equal to 100
+    ansible.builtin.debug:
+      msg: "Given number {{ Number }} is less than to 100"
+    when: Number > 100 
