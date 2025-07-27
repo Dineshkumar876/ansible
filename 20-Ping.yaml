@@ -4,4 +4,4 @@
   tasks:
   - name: ping in server
     ansible.builtin.debug:
-      msg: "ping!"
+      msg: "ping is the access"
