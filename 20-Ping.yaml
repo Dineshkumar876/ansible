@@ -1,4 +1,4 @@
-- name: configure to ping 
+- name: ping in server 
   hosts: local
   connection: local
   tasks:
