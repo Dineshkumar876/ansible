@@ -1,0 +1,7 @@
+- name: configure to ping 
+  hosts: local
+  connection: local
+  tasks:
+  - name: ping in server
+    ansible.bulitin.ping:
+      msg: "ping is the server"
