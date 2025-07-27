@@ -4,4 +4,4 @@
   tasks:
   - name: ping in server
     ansible.builtin.ping:
-      msg: "ping is the server"
+      msg: "ping connection to the access"
