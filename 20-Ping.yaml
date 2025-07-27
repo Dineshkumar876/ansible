@@ -3,5 +3,5 @@
   connection: local
   tasks:
   - name: ping in server
-    ansible.builtin.ping:
+    ansible.builtin.debug:
       msg: "ping!"
