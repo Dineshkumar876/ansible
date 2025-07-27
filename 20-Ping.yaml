@@ -1,6 +1,6 @@
 - name: configure to ping 
-  hosts: backend
-  become: yes
+  hosts: local
+  connection: local
   tasks:
   - name: ping in server
     ansible.bulitin.ping:
